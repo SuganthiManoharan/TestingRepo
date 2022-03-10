@@ -3,7 +3,7 @@ version: 2.0
 jobs:
     build:
         docker:
-            - image: sugan1234/vaadin:v1
+            - image: gradle:alpine
         environment:
           MAVEN_CLI_OPTS: "--batch-mode"
         steps:
